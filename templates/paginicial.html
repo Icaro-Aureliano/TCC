@@ -1,0 +1,12 @@
+{% extends "template.html" %}
+{% block conteudo %}
+  <main>
+    <div class="exemploMaior">
+      <div class="exemplo">
+        <p id="descEx">O air control é um dispositivo que tem a proposta de tornar os ares-condicionados mais acessíveis através da internet.
+          O produto permite controlar a temperatura à distância por meio de um celular, trazendo a função de configurar a temperatura de qualquer lugar. Nosso prosuto tem como finalidade, ser uma alternativa mais barata para quem procura controlar o ar-condicionado via wifi, já que no Brasil são poucas opções de aparelhos com o recurso</p>
+        <img src="{{ url_for('static', filename='assets/foto_produto.png') }}" id="imageEx">
+      </div>
+    </div>
+  </main>
+{% endblock %}

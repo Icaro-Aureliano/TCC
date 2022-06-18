@@ -1,0 +1,32 @@
+{% extends "template.html" %}
+{% block conteudo %}
+  <main>
+    <div class="containerComprado">
+      <div class="conteudoComprado">
+        <div class="avatar">
+          <h1 class="tituloPC">Bem vindo(a) {{nome_usuario}}!</h1>
+          <br>
+
+          <label for="imagem" class="fileContainer">
+            <figure class="img_container">
+              <img class="img_test" height = "100px" width = "100px" src="{{ url_for('imagem', nome_arquivo= cliente_foto or foto_padrao.jpg)}} ">
+            </figure>
+            <form action="#">
+              <input class="imagem" type="file" id="imagem" name="imagem" > 
+            </form>
+          </label>
+        </div><br>
+
+        <div>
+
+        </div>  
+        <div class="baixar">
+          <h3 class="subtituloPC">Faça Download do nosso aplicativo abaixo</h3>
+          <img src="{{url_for('static', filename='assets/arrow.svg')}}" alt="Seta para baixo" width="50">
+        <img height="100px" width="100px" src="{{ url_for('imagem', nome_arquivo = 'Qr_ar_control.png')}}"></a>
+         
+        </div>
+      </div>
+    </div>
+  </main>
+{% endblock %}

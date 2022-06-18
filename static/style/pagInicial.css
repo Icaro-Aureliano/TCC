@@ -1,0 +1,24 @@
+:root {
+  --branco: #fff;
+  --preto: #000;
+  --cinza-branco: #ededed;
+
+  --azul-violeta-escuro: #7482AD;
+  --azul-violeta: #899BD0;
+  --lilas: #9DB0EA;
+  --lilas-claro: #C4CEEC;
+  --lilas-muito-claro: #D4D9E8;
+
+  --logo-azul: #32BBDD;
+  --logo-azul-escuro: #283F83; 
+  --logo-azul-roxo: #3F54A2;
+
+  --inter: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--branco);
+  margin: 0;
+  font-family: var(--inter);
+}
+

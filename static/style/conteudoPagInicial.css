@@ -1,0 +1,277 @@
+.exemploMaior {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 72vh;
+}
+
+.exemplo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+#descEx {
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+
+#imageEx {
+  width: 40%;
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  .modal-cadastro {
+    height: 50% !important;
+  }
+
+  .tituloCadastro {
+    top: 15px !important;
+  }
+
+  .botaoEntrarCadastro {
+    width: 10rem !important;
+  }
+
+  .botaoEntrarLogin {
+    width: 10rem !important;
+  }
+
+  .itens {
+    justify-content: flex-start !important;
+  }
+
+  label #btn {
+    left: 20rem;
+    margin: 2px 2px !important;
+    height: 40px !important;
+  }
+
+  #cad {
+    margin: 0px 0px 0px 15px;
+  }
+
+  .exemploMaior {
+    height: 100vh;
+    align-items: stretch;
+  }
+
+  .exemplo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #descEx {
+    font-size: 15px;
+  }
+
+  #imageEx {
+    width: 85%;
+  }
+
+  .rodapeItens {
+    height: 50vh !important;
+    flex-direction: column;
+  }
+
+  .rodape_left {
+    flex-wrap: wrap;
+  }
+
+  .rodape_right {
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .contato {
+    font-size: 15px !important;
+    text-align: center;
+    margin-left: 80px !important;
+    margin-top: 25px;
+  }
+
+  #logoRodape {
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+  .modal-cadastro {
+    height: 50% !important;
+  }
+
+  .tituloCadastro {
+    top: 15px !important;
+  }
+
+  .botaoEntrarCadastro {
+    width: 10rem !important;
+  }
+
+  .botaoEntrarLogin {
+    width: 10rem !important;
+  }
+
+  .itens {
+    justify-content: flex-start !important;
+    margin-left: 15px;
+  }
+
+  label #btn {
+    left: 20rem;
+    margin: 2px 2px !important;
+    height: 40px !important;
+  }
+
+  .exemploMaior {
+    height: 100vh;
+    align-items: stretch;
+  }
+
+  .exemplo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #descEx {
+    font-size: 18px;
+  }
+
+  #imageEx {
+    width: 85%;
+  }
+
+  .rodapeItens {
+    height: 50vh !important;
+    flex-direction: column;
+  }
+
+  .rodape_left {
+    flex-wrap: wrap;
+  }
+
+  .rodape_right {
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .contato {
+    font-size: 17px !important;
+    text-align: center;
+    margin-left: 95px !important;
+    margin-top: 25px;
+  }
+
+  #logoRodape {
+    margin-left: 110px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .modal-cadastro {
+    height: 50% !important;
+    width: 60% !important;
+  }
+
+  .modal-login {
+    height: 50% !important;
+    width: 60% !important;
+  }
+
+  .tituloCadastro {
+    top: 15px !important;
+  }
+
+  .botaoEntrarCadastro {
+    width: 10rem !important;
+  }
+
+  .botaoEntrarLogin {
+    width: 10rem !important;
+  }
+
+  label #btn {
+    height: 40px !important;
+    line-height: 42px !important;
+  }
+
+  .exemploMaior {
+    height: 100vh;
+    align-items: stretch;
+  }
+
+  .exemplo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cadLogin {
+    font-size: 20px !important;
+  }
+
+  #descEx {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #imageEx {
+    width: 60%;
+  }
+
+  .rodape_right {
+    width: 25% !important;
+  }
+
+  .contato {
+    font-size: 16px !important;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  label #btn {
+    font-size: 42px !important;
+    margin: 12px 2px !important;
+  }
+  .sidebar a {
+    font-size: 25px;
+    height: 80px !important;
+    line-height: 80px !important;
+    padding-left: 20px !important;
+  }
+
+  .cadLogin {
+    font-size: 28px !important;
+  }
+
+  #descEx {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #imageEx {
+    width: 50%;
+    padding: 1rem;
+  }
+
+  #logoRodape {
+    width: 250px;
+  }
+
+  .contato {
+    font-size: 18px !important;
+  }
+
+  .imgRedes {
+    width: 40px;
+  }
+
+  .rodape_right {
+    width: 100%;
+    margin-right: 5% !important;
+  }
+}

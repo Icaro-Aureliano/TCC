@@ -1,0 +1,25 @@
+{% extends "template.html" %}
+{% block conteudo %}
+  <main>
+    <div class="conteudoContato">
+      <div class="tituloContato">
+        <h2 class="tituloP">Página de Contato</h2>
+        <p class="tituloP">Preencha suas informações abaixo</p>
+        <div class="linha"></div>
+      </div>
+      <div class="formulario">
+        <form>
+          <label for="nome">Nome completo</label>
+          <input type="text" class="inputsForm">
+          <label for="nome">E-mail</label>
+          <input type="email" class="inputsForm">
+          <label for="nome">Número de celular</label>
+          <input type="number" class="inputsForm">
+          <label for="nome">Insira sua dúvida, reclamação, etc...</label>
+          <textarea name="nome" cols="50" rows="2" class="inputsForm"></textarea>
+          <button id="botaoForm">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
+{% endblock %}

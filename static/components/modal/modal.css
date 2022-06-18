@@ -1,0 +1,212 @@
+/*login*/
+.modal-container-login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1a1ab6;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container-login.mostrar {
+  display: flex;
+}
+
+.modal-login {
+  background-color: var(--branco);
+  height: 40%;
+  width: 30%;
+  min-width: 300px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.mostrar.modal-login {
+  animation: modal 0.3s;
+}
+
+.sairLog {
+  cursor: pointer;
+  color: #008cae;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  margin: 10px 5px 0 0;
+}
+
+.tituloLogin {
+  position: absolute;
+  top: 25px;
+}
+
+.emailSenhaLog {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.inputs {
+  font-size: var(--inter);
+  margin-bottom: 5px;
+  width: 50%;
+  background-color: var(--branco);
+  border: none;
+  border-bottom: 1px solid black;
+  transition: 0.5s;
+}
+
+.inputs:hover {
+  background-color: var(--cinza-branco);
+}
+
+.botaoEntrarLogin {
+  background-color: var(--logo-azul);
+  cursor: pointer;
+
+  border: none;
+  border-radius: 5px;
+
+  color: var(--branco);
+  font-weight: bold;
+  font-family: var(--inter);
+  font-size: 17px;
+
+  width: 25%;
+  height: 10%;
+
+  transition: 0.5s;
+}
+
+.botaoEntrarLogin:hover {
+  background-color: #008cae;
+}
+
+/*Cadastro*/
+.modal-container-cadastro {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1a1ab6;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container-cadastro.mostrar {
+  display: flex;
+}
+
+.modal-cadastro {
+  background-color: var(--branco);
+  height: 75%;
+  width: 30%;
+  min-width: 300px;
+  padding: 20px;
+  border: 1pxsolid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.mostrar.modal-cadastro {
+  animation: modal 0.3s;
+}
+
+.sairCad {
+  cursor: pointer;
+  color: #008cae;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  margin: 10px 5px 0 0;
+}
+
+.tituloCadastro {
+  position: absolute;
+  top: 25px;
+}
+
+.inputs {
+  font-size: var(--inter);
+  margin-bottom: 5px;
+  width: 50%;
+  background-color: var(--branco);
+  border: none;
+  border-bottom: 1px solid black;
+  transition: 0.5s;
+}
+
+.inputs:hover {
+  background-color: var(--cinza-branco);
+}
+
+.botaoEntrarCadastro {
+  background-color: var(--logo-azul);
+  cursor: pointer;
+
+  border: none;
+  border-radius: 5px;
+
+  color: var(--branco);
+  font-weight: bold;
+  font-family: var(--inter);
+  font-size: 17px;
+
+  width: 25%;
+
+
+  transition: 0.5s;
+}
+
+.botaoEntrarCadastro:hover {
+  background-color: #008cae;
+}
